@@ -14,7 +14,8 @@ public class ItemController {
 	
 	@Autowired
 	private ItemService itemService;
-	
+
+	// main page of localhost:8080
 	@GetMapping("/members/")
 	public List<Item> items() {
 
